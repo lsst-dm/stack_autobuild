@@ -1,0 +1,768 @@
+activemqcpp 3.1.2+1 current stable
+activemqcpp 3.1.2+2 beta Summer2012 v5_0 v5_1 v5_2 Winter2012
+afw 4.7.1.0+1
+afw 4.7.1.0+2
+afw 4.7.2.0+3 current stable
+afw 4.7.3.0+1
+afw 4.7.3.0+3
+afw 4.8.0.0+1
+afw 4.8.0.0+2
+afw 4.8.0.1+1
+afw 4.8.0.1+2
+afw 4.8.0.1+3
+afw 4.8.0.2+1 Winter2012
+afw 4.8.0.2+3
+afw 4.9.0.0+1
+afw 5.0.2.0+1 v5_0
+afw 5.0.2.0+4
+afw 5.0.2.0+6
+afw 5.0.2.1+1
+afw 5.0.2.1+2 S12a
+afw 5.1.2.0+1 beta v5_1
+afwdata master current
+ap 4.7.1.0+1
+ap 4.7.1.0+2
+ap 4.7.1.0+4 current stable
+ap 4.7.3.0+1
+ap 4.7.3.0+3
+ap 4.8.0.1+1
+ap 4.8.0.1+2
+ap 4.8.0.1+3
+ap 4.8.0.1+5
+ap 4.8.0.1+6
+ap 4.8.0.2+1
+ap 4.8.0.3+1
+ap 4.8.0.3+2 Winter2012
+ap 4.8.0.3+4
+ap 5.1.1.0+1 beta v5_1
+apr 1.3.3+1 beta current stable Summer2012 v5_0 v5_1 v5_2
+astrometry_net 0.30 beta current stable Summer2012 v5_1 v5_2
+astrometry_net_data cfhtls_20100706
+astrometry_net_data cfhtlsDeep
+astrometry_net_data cfhttemplate
+astrometry_net_data imsim_20100716
+astrometry_net_data imsim_20100716_b
+astrometry_net_data imsim-2011-05-01-0
+astrometry_net_data imsim-2011-05-01-1
+astrometry_net_data imsim-2011-05-19-0
+astrometry_net_data imsim-2011-08-01-0 current
+astrometry_net_data sdss-2012-05-01-0
+base 4.7.1.0+1
+base 4.7.1.0+2 current stable
+base 4.7.1.0+3
+base 4.7.1.0+4
+base 4.8.0.0+1 Winter2012
+base 4.8.0.0+2
+base 4.8.0.0+3
+base 4.8.0.0+4
+base 4.8.0.0+5
+base 4.8.0.0+6 v5_0
+base 4.8.0.0+8 S12a
+base 4.8.0.0+9 beta Summer2012 v5_1 v5_2
+boost 1.47.0+3 current stable
+boost 1.47.0+5 v5_0 Winter2012
+boost 1.47.0+6 beta S12a Summer2012 v5_1 v5_2
+cat 4.7.1.0+1
+cat 4.7.1.0+2 current stable
+cat 4.7.1.0+3
+cat 4.7.1.0+5
+cat 4.8.0.1+1
+cat 4.8.0.1+10
+cat 4.8.0.1+2
+cat 4.8.0.1+3
+cat 4.8.0.1+4 Winter2012
+cat 4.8.0.1+6
+cat 4.8.0.1+7
+cat 5.1.1.0+1
+cat 5.1.2.0+1
+cat 5.1.2.0+2 beta v5_1
+cfitsio 3260+1 current stable
+cfitsio 3260+2
+cfitsio 3290+1 v5_0 Winter2012
+cfitsio 3290+2 beta S12a Summer2012 v5_1 v5_2
+coadd_chisquared 4.7.3.0+11
+coadd_chisquared 4.7.3.0+3 current
+coadd_chisquared 4.7.3.0+4
+coadd_chisquared 4.7.3.0+6
+coadd_chisquared 4.7.3.0+7
+coadd_chisquared 4.7.3.0+9 Winter2012
+coadd_chisquared 4.9.0.0+1
+coadd_chisquared 4.9.0.0+2 v5_0
+coadd_chisquared 4.9.0.0+5
+coadd_chisquared 4.9.0.0+7
+coadd_chisquared 4.9.0.0+8
+coadd_chisquared 4.9.0.0+9 S12a
+coadd_chisquared 5.1.0.1+1 beta v5_1
+coadd_chisquared 5.1.0.1+2
+coadd_chisquared 5.1.0.1+3 Summer2012 v5_2
+coadd_utils 4.7.1.0+1
+coadd_utils 4.7.1.0+2
+coadd_utils 4.7.1.0+4 current stable
+coadd_utils 4.7.3.0+1
+coadd_utils 4.7.3.0+3
+coadd_utils 4.8.1.0+1
+coadd_utils 4.8.1.0+2
+coadd_utils 4.8.1.0+3
+coadd_utils 4.8.1.0+4
+coadd_utils 4.8.1.0+5
+coadd_utils 4.8.1.1+1 Winter2012
+coadd_utils 4.8.1.1+3
+coadd_utils 4.9.0.0+1
+coadd_utils 4.9.0.0+2 v5_0
+coadd_utils 4.9.0.0+5
+coadd_utils 4.9.0.0+7
+coadd_utils 4.9.0.0+8
+coadd_utils 4.9.0.0+9 S12a
+coadd_utils 5.1.1.0+1 beta v5_1
+coadd_utils 5.1.1.0+2 Summer2012 v5_2
+ctrl_events 4.7.1.0+1
+ctrl_events 4.7.1.0+2 current stable
+ctrl_events 4.7.3.0+1
+ctrl_events 4.7.3.0+3
+ctrl_events 4.8.0.0+1
+ctrl_events 4.8.0.0+10
+ctrl_events 4.8.0.0+12
+ctrl_events 4.8.0.0+13
+ctrl_events 4.8.0.0+14 beta v5_1
+ctrl_events 4.8.0.0+15 Summer2012 v5_2
+ctrl_events 4.8.0.0+2
+ctrl_events 4.8.0.0+3
+ctrl_events 4.8.0.0+4 Winter2012
+ctrl_events 4.8.0.0+6
+ctrl_events 4.8.0.0+7
+ctrl_orca 4.7.1.0+1
+ctrl_orca 4.7.1.0+2 current stable
+ctrl_orca 4.7.1.0+3
+ctrl_orca 4.7.1.0+5
+ctrl_orca 4.8.0.1+1
+ctrl_orca 4.8.0.1+2
+ctrl_orca 4.8.0.1+3
+ctrl_orca 4.8.0.1+4
+ctrl_orca 4.8.0.1+5 Winter2012
+ctrl_orca 4.8.0.1+8
+ctrl_orca 5.1.0.1+1
+ctrl_orca 5.1.0.1+3 beta v5_1
+ctrl_orca 5.1.0.1+4
+ctrl_provenance 4.7.1.0+1
+ctrl_provenance 4.7.1.0+10
+ctrl_provenance 4.7.1.0+2 current stable
+ctrl_provenance 4.7.1.0+3
+ctrl_provenance 4.7.1.0+5
+ctrl_provenance 4.7.1.0+6
+ctrl_provenance 4.7.1.0+7
+ctrl_provenance 4.7.1.0+9
+ctrl_provenance 4.8.0.2+10
+ctrl_provenance 4.8.0.2+1 Winter2012
+ctrl_provenance 4.8.0.2+3
+ctrl_provenance 4.8.0.2+4
+ctrl_provenance 4.8.0.2+7
+ctrl_provenance 4.8.0.2+9
+ctrl_provenance 4.8.0.3+1 beta v5_1
+ctrl_provenance 4.8.0.3+2 Summer2012 v5_2
+ctrl_sched 4.7.1.0+1
+ctrl_sched 4.7.1.0+10
+ctrl_sched 4.7.1.0+2
+ctrl_sched 4.7.1.0+4 current stable
+ctrl_sched 4.7.1.0+5
+ctrl_sched 4.7.1.0+6
+ctrl_sched 4.7.1.0+8
+ctrl_sched 4.7.1.0+9
+ctrl_sched 4.8.0.1+1
+ctrl_sched 4.8.0.1+10
+ctrl_sched 4.8.0.1+11
+ctrl_sched 4.8.0.1+17
+ctrl_sched 4.8.0.1+2
+ctrl_sched 4.8.0.1+4
+ctrl_sched 4.8.0.1+5
+ctrl_sched 4.8.0.1+6
+ctrl_sched 4.8.0.1+7 Winter2012
+ctrl_sched 5.1.0.0+1
+ctrl_sched 5.1.0.0+10
+ctrl_sched 5.1.0.0+12
+ctrl_sched 5.1.0.0+13
+ctrl_sched 5.1.0.0+16 Summer2012 v5_2
+ctrl_sched 5.1.0.0+2
+ctrl_sched 5.1.0.0+3 beta v5_1
+ctrl_sched 5.1.0.0+4
+daf_base 4.7.1.0+1
+daf_base 4.7.1.0+2 current stable
+daf_base 4.7.3.0+1
+daf_base 4.7.3.0+3
+daf_base 4.8.0.1+1
+daf_base 4.8.0.1+2
+daf_base 4.8.0.2+1 Winter2012
+daf_base 4.8.0.2+3
+daf_base 4.8.0.2+4
+daf_base 5.0.0.0+1 v5_0
+daf_base 5.0.0.0+2 S12a
+daf_base 5.1.0.1+1 beta Summer2012 v5_1 v5_2
+daf_butlerUtils 4.7.1.0+1
+daf_butlerUtils 4.7.1.0+2
+daf_butlerUtils 4.7.1.0+4 current stable
+daf_butlerUtils 4.7.1.0+5
+daf_butlerUtils 4.7.1.0+7
+daf_butlerUtils 4.8.0.1+1
+daf_butlerUtils 4.8.0.1+2
+daf_butlerUtils 4.8.0.2+1
+daf_butlerUtils 4.8.0.3+1
+daf_butlerUtils 4.8.0.3+2
+daf_butlerUtils 4.8.0.3+3
+daf_butlerUtils 4.8.0.3+4 Winter2012
+daf_butlerUtils 4.8.0.3+6
+daf_butlerUtils 4.8.0.3+7
+daf_butlerUtils 4.9.0.1+1
+daf_butlerUtils 4.9.0.1+2 v5_0
+daf_butlerUtils 4.9.0.1+5
+daf_butlerUtils 4.9.0.1+7
+daf_butlerUtils 4.9.0.1+8
+daf_butlerUtils 4.9.0.1+9 S12a
+daf_butlerUtils 5.1.0.1+1 beta v5_1
+daf_persistence 4.7.1.0+1
+daf_persistence 4.7.1.0+2 current stable
+daf_persistence 4.7.3.0+1
+daf_persistence 4.7.3.0+3
+daf_persistence 4.8.0.0+1
+daf_persistence 4.8.0.1+1
+daf_persistence 4.8.0.1+2
+daf_persistence 4.8.0.3+1 Winter2012
+daf_persistence 4.8.0.3+3
+daf_persistence 4.9.0.0+1
+daf_persistence 5.0.0.2+1 v5_0
+daf_persistence 5.0.0.2+4
+daf_persistence 5.0.0.2+5 S12a
+daf_persistence 5.1.1.0+1 beta v5_1
+datarel 4.7.1.0+1
+datarel 4.7.1.0+10
+datarel 4.7.1.0+11
+datarel 4.7.1.0+2
+datarel 4.7.1.0+4 current stable
+datarel 4.7.1.0+5
+datarel 4.7.1.0+6
+datarel 4.7.1.0+8
+datarel 4.8.0.1+1
+datarel 4.8.0.1+2
+datarel 4.8.0.2+1
+datarel 4.8.0.2+2
+datarel 4.8.0.2+3
+datarel 4.8.0.3+1
+datarel 4.8.0.3+3
+datarel 4.8.0.3+5
+datarel 4.8.0.4+1
+datarel 4.8.0.4+10
+datarel 4.8.0.4+11
+datarel 4.8.0.4+18
+datarel 4.8.0.4+2
+datarel 4.8.0.4+3
+datarel 4.8.0.4+4
+datarel 4.8.0.4+5
+datarel 4.8.0.4+8 Winter2012
+datarel 4.8.0.5+1
+datarel 5.1.1.0+1
+datarel 5.1.1.0+2
+datarel 5.1.2.0+1
+datarel 5.1.2.0+2 beta v5_1
+devenv_servertools 4.7.0.0+1
+devenv_servertools 4.7.0.4+1
+devenv_servertools 4.7.0.5+1
+devenv_servertools 4.7.0.6+1
+devenv_servertools 4.7.0.7+1
+devenv_servertools 4.8.0.1+1 beta current setup v5_1
+doxygen 1.7.5.1+1 current setup stable
+doxygen 1.7.6.1+1 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+eigen 3.0.2+1 beta current stable Summer2012 v5_0 v5_1 v5_2
+eups 1.2.27
+eups 1.2.30
+eups 1.2.32 current stable
+fftw 3.1.2+1 beta current stable Summer2012 v5_0 v5_1 v5_2
+freetype 2.3.8+1 beta current stable Summer2012 v5_1 v5_2
+geom 4.7.1.0+1
+geom 4.7.1.0+2 current stable
+geom 4.7.1.0+3
+geom 4.7.1.0+4
+geom 4.7.1.0+5
+geom 4.7.1.0+6
+geom 4.7.1.0+7
+geom 4.8.0.2+1 Winter2012
+geom 4.8.0.2+3
+geom 4.8.0.2+4
+geom 4.8.0.2+5 v5_0
+geom 4.8.0.2+6 S12a
+geom 4.8.0.2+7 beta Summer2012 v5_1 v5_2
+gsl 1.15+1 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+gsl 1.8+1 current stable
+ip_diffim 4.7.1.0+1
+ip_diffim 4.7.1.0+2
+ip_diffim 4.7.1.0+4 current stable
+ip_diffim 4.7.3.0+1
+ip_diffim 4.7.3.0+3
+ip_diffim 4.7.3.0+4
+ip_diffim 4.7.3.0+5 Winter2012
+ip_diffim 4.9.0.0+1
+ip_diffim 4.9.0.0+2
+ip_diffim 5.0.1.0+1 v5_0
+ip_diffim 5.0.1.0+4
+ip_diffim 5.0.1.0+6
+ip_diffim 5.0.1.1+1
+ip_diffim 5.0.1.1+2
+ip_diffim 5.0.1.1+4
+ip_diffim 5.0.1.1+5
+ip_diffim 5.0.1.1+6 S12a
+ip_diffim 5.1.1.0+1 beta v5_1
+ip_diffim 5.1.1.0+2
+ip_diffim 5.1.1.0+4
+ip_isr 4.7.1.0+1
+ip_isr 4.7.1.0+2
+ip_isr 4.7.1.0+4 current stable
+ip_isr 4.7.3.0+1
+ip_isr 4.7.3.0+3
+ip_isr 4.8.0.1+1
+ip_isr 4.8.0.1+2
+ip_isr 4.8.0.2+1
+ip_isr 4.8.0.2+2
+ip_isr 4.8.0.2+3
+ip_isr 4.8.0.2+4
+ip_isr 4.8.0.2+5
+ip_isr 4.8.0.2+6
+ip_isr 4.8.0.3+1
+ip_isr 4.8.0.4+1 Winter2012
+ip_isr 4.9.0.1+1
+ip_isr 4.9.0.1+3
+ip_isr 4.9.0.3+1
+ip_isr 4.9.0.3+2
+ip_isr 5.0.0.2+1 v5_0
+ip_isr 5.0.0.2+4
+ip_isr 5.0.0.2+5
+ip_isr 5.0.0.3+1
+ip_isr 5.0.0.3+3
+ip_isr 5.0.0.3+4
+ip_isr 5.0.0.3+5 S12a
+ip_isr 5.1.1.1+1 beta v5_1
+ip_isr 5.1.1.1+2
+ip_isr 5.1.1.1+3
+ip_isr 5.1.1.1+6 Summer2012 v5_2
+ip_pipeline 4.7.1.0+1
+ip_pipeline 4.7.1.0+2
+ip_pipeline 4.7.1.0+4 current stable
+ip_pipeline 4.7.1.0+5
+ip_pipeline 4.7.1.0+7
+ip_pipeline 4.7.1.0+8
+ip_pipeline 4.7.1.0+9
+ip_pipeline 4.8.0.1+1
+ip_pipeline 4.8.0.1+2
+ip_utils 4.7.1.0+1
+ip_utils 4.7.1.0+10
+ip_utils 4.7.1.0+11
+ip_utils 4.7.1.0+12
+ip_utils 4.7.1.0+2
+ip_utils 4.7.1.0+4 current stable
+ip_utils 4.7.1.0+5
+ip_utils 4.7.1.0+7
+ip_utils 4.7.1.0+8
+ip_utils 4.7.1.0+9
+ip_utils 4.8.0.2+1 Winter2012
+ip_utils 4.8.0.2+3
+ip_utils 4.8.0.2+4
+libpng 1.2.35+1 beta current stable Summer2012 v5_1 v5_2
+lsst 4.7.1.2+1
+lsst 4.7.1.2+10 beta Summer2012 v5_1 v5_2
+lsst 4.7.1.2+2
+lsst 4.7.1.2+3 current setup stable
+lsst 4.7.1.2+4
+lssteups 4.7.1.2+1
+lssteups 4.7.1.3+1
+lssteups 4.7.1.4+1 beta current setup stable Summer2012 v5_1 v5_2
+matplotlib 1.0.1+2
+matplotlib 1.0.1+3 current
+matplotlib 1.1.0+2 stable
+matplotlib 1.1.0+3 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+meas_algorithms 4.7.1.0+1
+meas_algorithms 4.7.1.0+2
+meas_algorithms 4.7.1.0+4 current stable
+meas_algorithms 4.7.3.0+1
+meas_algorithms 4.7.3.0+3
+meas_algorithms 4.8.0.0+1
+meas_algorithms 4.8.0.0+2
+meas_algorithms 4.8.0.1+1
+meas_algorithms 4.8.0.1+2
+meas_algorithms 4.8.0.1+3
+meas_algorithms 4.8.0.2+1 Winter2012
+meas_algorithms 4.8.0.2+3
+meas_algorithms 4.9.0.1+1
+meas_algorithms 5.0.2.0+1 v5_0
+meas_algorithms 5.0.2.0+4
+meas_algorithms 5.0.2.1+1
+meas_algorithms 5.0.2.1+2
+meas_algorithms 5.0.2.1+3
+meas_algorithms 5.0.2.1+4
+meas_algorithms 5.0.2.1+6
+meas_algorithms 5.0.2.1+7
+meas_algorithms 5.0.2.1+8 S12a
+meas_algorithms 5.1.2.2+1
+meas_algorithms 5.1.2.4+1 beta v5_1
+meas_astrom 4.7.1.0+1
+meas_astrom 4.7.1.0+2
+meas_astrom 4.7.1.0+4 current stable
+meas_astrom 4.7.3.0+1
+meas_astrom 4.7.3.0+3
+meas_astrom 4.8.0.1+1
+meas_astrom 4.8.0.1+2
+meas_astrom 4.8.0.2+1
+meas_astrom 4.8.0.2+2
+meas_astrom 4.8.0.2+3
+meas_astrom 4.8.0.3+1 Winter2012
+meas_astrom 4.8.0.3+3
+meas_astrom 4.9.0.0+1
+meas_astrom 5.0.2.0+1 v5_0
+meas_astrom 5.0.2.0+4
+meas_astrom 5.0.2.0+5
+meas_astrom 5.0.2.1+1
+meas_astrom 5.0.2.1+3
+meas_astrom 5.0.2.1+4
+meas_astrom 5.0.2.1+5 S12a
+meas_astrom 5.1.1.0+1 beta v5_1
+meas_extensions_multiShapelet 5.1.0.3+1 current
+meas_extensions_multiShapelet 5.1.0.4+1
+meas_extensions_multiShapelet 5.1.0.5+1 beta v5_1
+meas_extensions_photometryKron 5.0.0.0+10 beta v5_1
+meas_extensions_photometryKron 5.0.0.0+1 current v5_0
+meas_extensions_photometryKron 5.0.0.0+4
+meas_extensions_photometryKron 5.0.0.0+5
+meas_extensions_photometryKron 5.0.0.0+7
+meas_extensions_photometryKron 5.0.0.0+8
+meas_extensions_photometryKron 5.0.0.0+9 S12a
+meas_extensions_rotAngle 5.0.0.0+10 S12a
+meas_extensions_rotAngle 5.0.0.0+1 current v5_0
+meas_extensions_rotAngle 5.0.0.0+4
+meas_extensions_rotAngle 5.0.0.0+6
+meas_extensions_rotAngle 5.0.0.0+8
+meas_extensions_rotAngle 5.0.0.0+9
+meas_extensions_rotAngle 5.0.0.1+1 beta v5_1
+meas_extensions_rotAngle 5.0.0.1+2
+meas_extensions_rotAngle 5.0.0.1+4
+meas_extensions_shapeHSM 5.0.0.0+10 beta v5_1
+meas_extensions_shapeHSM 5.0.0.0+1 current v5_0
+meas_extensions_shapeHSM 5.0.0.0+4
+meas_extensions_shapeHSM 5.0.0.0+5
+meas_extensions_shapeHSM 5.0.0.0+7
+meas_extensions_shapeHSM 5.0.0.0+8
+meas_extensions_shapeHSM 5.0.0.0+9 S12a
+meas_multifit 4.7.1.0+1
+meas_multifit 4.7.1.0+2
+meas_multifit 4.7.1.0+4 current stable
+meas_multifit 4.7.3.0+1
+meas_multifit 4.7.3.0+3
+meas_multifit 4.8.0.1+1
+meas_multifit 4.8.0.1+2
+meas_pipeline 4.7.1.0+1
+meas_pipeline 4.7.1.0+2
+meas_pipeline 4.7.1.0+4 current stable
+meas_pipeline 4.7.1.0+5
+meas_pipeline 4.7.1.0+7
+meas_pipeline 4.7.1.0+8
+meas_pipeline 4.8.0.0+2
+meas_pipeline 4.8.0.0+3
+meas_pipeline 4.8.0.0+4
+meas_utils 4.7.1.0+1
+meas_utils 4.7.1.0+2
+meas_utils 4.7.1.0+4 current stable
+meas_utils 4.7.1.0+5
+meas_utils 4.7.1.0+7
+meas_utils 4.7.1.0+8
+meas_utils 4.8.0.1+1
+meas_utils 4.8.0.1+2
+meas_utils 4.8.0.2+1
+meas_utils 4.8.0.2+2
+meas_utils 4.8.0.2+3
+meas_utils 4.8.0.2+4 Winter2012
+meas_utils 4.8.0.2+6
+meas_utils 4.9.0.0+1
+mysqlclient 5.1.50+1 beta current stable Summer2012 v5_0 v5_1 v5_2
+mysqlpython 1.2.3+2 current stable
+mysqlpython 1.2.3+3 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+ndarray 4.7.1.0+1
+ndarray 4.7.1.0+3 current stable
+ndarray 4.7.1.0+4
+ndarray 4.8.0.1+1
+ndarray 4.8.0.1+2
+ndarray 4.8.0.2+1 Winter2012
+ndarray 4.8.0.2+2
+ndarray 4.8.0.2+3
+ndarray 4.8.0.2+4
+ndarray 5.0.0.0+1 v5_0
+ndarray 5.0.0.0+2 S12a
+ndarray 5.1.0.2+2 beta v5_1
+numpy 1.6.1+2
+numpy 1.6.1+3 current stable
+numpy 1.6.1+4 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+obs_cfht 4.7.1.0+1
+obs_cfht 4.7.1.0+10
+obs_cfht 4.7.1.0+11
+obs_cfht 4.7.1.0+12
+obs_cfht 4.7.1.0+13
+obs_cfht 4.7.1.0+14
+obs_cfht 4.7.1.0+15 Winter2012
+obs_cfht 4.7.1.0+17
+obs_cfht 4.7.1.0+18
+obs_cfht 4.7.1.0+2
+obs_cfht 4.7.1.0+4 current stable
+obs_cfht 4.7.1.0+5
+obs_cfht 4.7.1.0+6
+obs_cfht 4.7.1.0+8
+obs_cfht 4.7.1.0+9
+obs_lsstSim 4.7.1.0+1
+obs_lsstSim 4.7.1.0+2
+obs_lsstSim 4.7.1.0+4 current stable
+obs_lsstSim 4.7.1.0+5
+obs_lsstSim 4.7.1.0+6
+obs_lsstSim 4.7.1.0+8
+obs_lsstSim 4.8.0.1+1
+obs_lsstSim 4.8.0.1+2
+obs_lsstSim 4.8.0.2+1
+obs_lsstSim 4.8.0.2+2
+obs_lsstSim 4.8.0.2+3
+obs_lsstSim 4.8.0.2+4
+obs_lsstSim 4.8.0.3+1
+obs_lsstSim 4.8.0.3+2 Winter2012
+obs_lsstSim 4.8.0.3+4
+obs_lsstSim 4.9.0.0+1
+obs_lsstSim 4.9.0.0+2
+obs_lsstSim 4.9.0.2+1
+obs_lsstSim 5.0.0.2+1 v5_0
+obs_lsstSim 5.0.0.2+4
+obs_lsstSim 5.0.0.2+5
+obs_lsstSim 5.0.0.2+7
+obs_lsstSim 5.0.0.2+8
+obs_lsstSim 5.0.0.2+9 S12a
+obs_lsstSim 5.0.0.4+1
+obs_lsstSim 5.1.1.0+1
+obs_lsstSim 5.1.1.1+1 beta v5_1
+obs_sdss 5.1.1.2+1 beta current v5_1
+obs_subaru 4.8.0.0+1 current
+obs_subaru 4.8.0.0+2
+obs_subaru 4.8.0.0+3
+obs_subaru 4.8.0.0+4
+obs_subaru 4.8.0.0+5 Winter2012
+obs_subaru 4.8.0.0+7
+obs_subaru 4.8.0.0+8
+obs_subaru 5.0.0.1+1
+obs_subaru 5.0.0.1+10
+obs_subaru 5.0.0.1+2 v5_0
+obs_subaru 5.0.0.1+5
+obs_subaru 5.0.0.1+7
+obs_subaru 5.0.0.1+8
+obs_subaru 5.0.0.1+9 S12a
+obs_test 4.9.0.0+1 current
+obs_test 4.9.0.2+1
+obs_test 4.9.0.2+4
+obs_test 4.9.0.2+5
+obs_test 4.9.0.2+6 S12a
+obs_test 4.9.0.2+7 beta v5_1
+pex_config 4.8.0.1+1 current
+pex_config 4.8.0.2+1
+pex_config 4.8.0.2+2
+pex_config 4.8.0.3+1 Winter2012
+pex_config 4.8.0.3+3
+pex_config 4.9.0.0+1
+pex_config 5.0.0.0+1 v5_0
+pex_config 5.0.0.1+1
+pex_config 5.0.0.1+2
+pex_config 5.0.0.1+3 S12a
+pex_config 5.1.1.0+1 beta Summer2012 v5_1 v5_2
+pex_exceptions 4.7.1.0+1
+pex_exceptions 4.7.1.0+2 current stable
+pex_exceptions 4.7.3.0+1
+pex_exceptions 4.8.0.0+1
+pex_exceptions 4.8.0.0+2 Winter2012
+pex_exceptions 4.8.0.0+4
+pex_exceptions 4.8.0.0+5
+pex_exceptions 4.8.0.0+6 v5_0
+pex_exceptions 4.8.0.0+7 S12a
+pex_exceptions 5.1.0.0+1 beta Summer2012 v5_1 v5_2
+pex_harness 4.7.1.0+1
+pex_harness 4.7.1.0+2 current stable
+pex_harness 4.7.3.0+1
+pex_harness 4.7.3.0+3
+pex_harness 4.7.3.0+4
+pex_harness 4.7.3.0+5
+pex_harness 4.7.3.0+6
+pex_harness 4.7.3.0+7
+pex_harness 4.8.0.2+12
+pex_harness 4.8.0.2+13
+pex_harness 4.8.0.2+14 beta v5_1
+pex_harness 4.8.0.2+1 Winter2012
+pex_harness 4.8.0.2+4
+pex_logging 4.7.1.0+1
+pex_logging 4.7.1.0+2 current stable
+pex_logging 4.7.3.0+1
+pex_logging 4.7.3.0+3
+pex_logging 4.8.0.1+1
+pex_logging 4.8.0.1+2
+pex_logging 4.8.0.1+3 Winter2012
+pex_logging 4.8.0.1+5
+pex_logging 4.9.0.0+1
+pex_logging 4.9.0.0+2 v5_0
+pex_logging 4.9.1.0+1
+pex_logging 4.9.1.0+2
+pex_logging 4.9.1.0+3
+pex_logging 4.9.1.0+4 S12a
+pex_logging 5.1.0.1+1 beta Summer2012 v5_1 v5_2
+pex_policy 4.7.1.0+1
+pex_policy 4.7.1.0+2 current stable
+pex_policy 4.7.3.0+1
+pex_policy 4.7.3.0+3
+pex_policy 4.8.0.0+1
+pex_policy 4.8.0.0+2
+pex_policy 4.8.0.0+3 Winter2012
+pex_policy 4.8.0.0+5
+pex_policy 4.8.0.0+6
+pex_policy 4.8.0.0+7 v5_0
+pex_policy 4.8.0.0+8 S12a
+pex_policy 4.8.0.0+9 beta Summer2012 v5_1 v5_2
+pipe_base 4.8.0.0+1 current
+pipe_base 4.8.0.0+2
+pipe_base 4.8.0.0+4
+pipe_base 4.8.0.0+5
+pipe_base 4.8.0.0+6
+pipe_base 4.8.0.2+1
+pipe_base 4.8.0.2+2 Winter2012
+pipe_base 4.8.0.2+4
+pipe_base 4.9.0.0+1
+pipe_base 4.9.0.0+2
+pipe_base 5.0.0.2+1 v5_0
+pipe_base 5.0.0.3+1
+pipe_base 5.0.0.3+4
+pipe_base 5.0.0.3+5
+pipe_base 5.0.0.3+7
+pipe_base 5.0.0.3+8
+pipe_base 5.0.0.3+9 S12a
+pipe_base 5.1.1.1+1 beta v5_1
+pipe_tasks 4.8.0.0+1 current
+pipe_tasks 4.8.0.0+2
+pipe_tasks 4.8.0.1+1
+pipe_tasks 4.8.0.1+2
+pipe_tasks 4.8.0.1+4
+pipe_tasks 4.8.0.1+5
+pipe_tasks 4.8.0.1+6
+pipe_tasks 4.8.0.1+7
+pipe_tasks 4.8.0.2+1
+pipe_tasks 4.8.0.2+2 Winter2012
+pipe_tasks 4.8.0.2+4
+pipe_tasks 4.9.0.0+1
+pipe_tasks 4.9.0.0+2
+pipe_tasks 5.0.0.2+1
+pipe_tasks 5.0.0.3+1 v5_0
+pipe_tasks 5.0.0.4+1
+pipe_tasks 5.0.0.4+11
+pipe_tasks 5.0.0.4+12
+pipe_tasks 5.0.0.4+13 S12a
+pipe_tasks 5.0.0.4+14
+pipe_tasks 5.0.0.4+4
+pipe_tasks 5.0.0.4+5
+pipe_tasks 5.0.0.4+6
+pipe_tasks 5.0.0.4+7
+pipe_tasks 5.0.0.4+8
+pipe_tasks 5.0.0.4+9
+pipe_tasks 5.1.2.0+1 beta v5_1
+pyfits 2.4.0+2
+pyfits 2.4.0+3 current stable
+pyfits 2.4.0+4 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+pysqlite 2.6.3+1 beta current stable Summer2012 v5_1 v5_2
+python 2.7.2+2 current stable
+python 2.7.2+3 beta S12a setup Summer2012 v5_0 v5_1 v5_2 Winter2012
+scisql 0.1+1
+scisql 0.1+2 current stable
+scisql 0.1+3 beta Summer2012 v5_1 v5_2 Winter2012
+scons 2.1.0+2 current stable
+scons 2.1.0+3 beta S12a setup Summer2012 v5_0 v5_1 v5_2 Winter2012
+sconsUtils 4.7.1.1+1
+sconsUtils 4.7.2.0+1 current stable
+sconsUtils 4.7.2.1+1 setup
+sconsUtils 4.8.0.1+1 Winter2012
+sconsUtils 4.8.0.2+1
+sconsUtils 4.8.0.2+2
+sconsUtils 5.0.0.1+1
+sconsUtils 5.0.0.2+1 S12a v5_0
+sconsUtils 5.1.0.1+1 beta Summer2012 v5_1 v5_2
+sdqa 4.7.1.0+1
+sdqa 4.7.1.0+2 current stable
+sdqa 4.7.1.0+3
+sdqa 4.7.1.0+4
+sdqa 4.7.1.0+5 Winter2012
+sdqa 4.7.1.0+7
+skymap 4.9.0.0+1 current
+skymap 4.9.0.0+2 v5_0
+skymap 4.9.0.0+5
+skymap 4.9.0.0+7
+skymap 4.9.0.0+8
+skymap 4.9.0.0+9 S12a
+skymap 5.1.1.2+1 beta v5_1
+skymap 5.1.1.2+2
+skymap 5.1.1.2+5 Summer2012 v5_2
+skypix 4.7.1.0+1
+skypix 4.7.1.0+10
+skypix 4.7.1.0+11
+skypix 4.7.1.0+12
+skypix 4.7.1.0+2
+skypix 4.7.1.0+4 current stable
+skypix 4.7.1.0+5
+skypix 4.7.1.0+7
+skypix 4.7.1.0+8
+skypix 4.7.1.0+9
+skypix 4.8.0.2+10
+skypix 4.8.0.2+11
+skypix 4.8.0.2+12 S12a
+skypix 4.8.0.2+1 Winter2012
+skypix 4.8.0.2+3
+skypix 4.8.0.2+4
+skypix 4.8.0.2+5 v5_0
+skypix 4.8.0.2+8
+skypix 5.1.0.0+1 beta v5_1
+skypix 5.1.0.0+2
+skypix 5.1.0.0+5 Summer2012 v5_2
+sqlite 3.7.10+1 beta S12a Summer2012 v5_0 v5_1 v5_2 Winter2012
+sqlite 3.7.8+1 current stable
+swig 1.3.36+2 current stable
+swig 2.0.4+2 v5_0 Winter2012
+swig 2.0.4+3 beta S12a Summer2012 v5_1 v5_2
+tcltk 8.5.9+1 beta current setup stable Summer2012 v5_0 v5_1 v5_2
+testdata_subaru master current
+testing_displayQA 4.8.0.0+1 current Winter2012
+testing_displayQA 4.8.0.0+3
+testing_displayQA 4.8.0.0+6
+testing_displayQA 4.8.0.0+8
+testing_displayQA 4.9.0.0+1
+testing_displayQA 4.9.0.0+2
+testing_displayQA 4.9.0.0+3 S12a
+testing_displayQA 5.1.1.0+1 beta v5_1
+testing_displayQA 5.1.1.0+2
+testing_displayQA 5.1.1.0+3
+testing_endtoend 5.1.0.1+1 current
+testing_endtoend 5.1.0.2+1
+testing_endtoend 5.1.0.2+3 beta v5_1
+testing_pipeQA 4.8.0.1+10
+testing_pipeQA 4.8.0.1+1 current
+testing_pipeQA 4.8.0.1+3 Winter2012
+testing_pipeQA 4.8.0.1+5
+testing_pipeQA 4.8.0.1+9
+testing_pipeQA 4.9.0.0+1
+testing_pipeQA 5.1.1.0+1
+testing_pipeQA 5.1.1.1+1 beta v5_1
+testing_pipeQA 5.1.1.1+2
+testing_pipeQA 5.1.1.1+3
+utils 4.7.1.0+1
+utils 4.7.1.0+2 current stable
+utils 4.7.3.0+1
+utils 4.7.3.2+1
+utils 4.7.3.2+2
+utils 4.8.0.1+1
+utils 4.8.0.2+1 Winter2012
+utils 4.8.0.2+3
+utils 4.8.0.2+4
+utils 4.8.0.2+5 v5_0
+utils 4.8.0.2+6 S12a
+utils 5.1.0.0+1 beta Summer2012 v5_1 v5_2
+wcslib 4.4.4+1 current stable
+wcslib 4.9+1
+wcslib 4.9+2 v5_0 Winter2012
+wcslib 4.9+4 beta S12a Summer2012 v5_1 v5_2
+xpa 2.1.13+1 beta current stable Summer2012 v5_0 v5_1 v5_2

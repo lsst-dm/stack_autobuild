@@ -1,0 +1,11 @@
+#!/bin/bash
+ID="$(date '+%F-%T')"
+
+[ -f autobuild.cfg.sh ] || { echo "Must run this script from the config directory."; exit -1; }
+hash stack-autobuild 2>/dev/null || { echo >&2 "stack-autobuild not on path? Aborting."; exit 1; }
+
+# Call it twice, as the first call, if any 'eups distrib install'-s are
+# done, may mess up the tags
+stack-autobuild autobuild.cfg.sh $ID 2>&1 | tee -a logs/autobuild.log.$ID
+stack-autobuild autobuild.cfg.sh $ID 2>&1 | tee -a logs/autobuild.log.$ID
+echo "===== DONE" >> logs/autobuild.log.$ID

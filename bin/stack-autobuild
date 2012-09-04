@@ -1,0 +1,147 @@
+#!/bin/bash
+#
+# stack-autobuild <config.sh> [id]
+#
+# Given a config.sh file, that must at least define the paths STACK_FROM and
+# STACK_TO, rebuild all packages present in STACK_FROM in STACK_TO
+#
+# This script is most commonly used to rebuild all packages using a
+# different compiler (or compiler settings)
+#
+# The [id] is an identifier appended to all files that this script generates
+# (e.g., logs), and defaults to current time if not given.
+#
+
+if [[ $# -ne 1 && $# -ne 2 ]]; then
+	echo "Usage: stack-autobuild <config.sh> [id]"
+	exit
+fi
+
+# EUPS needs this
+export SHELL=${SHELL:-/bin/bash}
+# 'sort -i' doesn't know how to sort unless LANG is set
+export LANG="en_US.UTF-8"
+
+ID=${2:-$(date '+%F-%T')}
+AUTOBUILD_DIR="$(cd "$(dirname "$1")" && pwd)"
+
+# Source the config file. Expect this will define something like:
+#
+# STACK_FROM="/lsst/DC3/stacks/gcc445-RH6/default/"
+# STACK_TO="/lsst/DC3/stacks/clang-30-RH6/"
+#
+# You can also override LOGDIR, EXCEPTIONS, FAILED and BLACKLIST
+
+. $1 || {
+	echo "Error sourcing $1 configuration file. Aborting."
+	exit -1
+}
+[ -z "$BLACKLIST" ]  && BLACKLIST=()
+[ -z "$EXCEPTIONS" ] && EXCEPTIONS="$AUTOBUILD_DIR/exceptions.txt"
+[ -z "$FAILED" ]     && FAILED="$AUTOBUILD_DIR/failed.txt"
+[ -z "$LOGDIR" ]     && LOGDIR="$AUTOBUILD_DIR/logs"
+
+#####################
+
+LIST_FROM=$(mktemp)
+LIST_TO=$(mktemp)
+LOG=$(mktemp)
+FAILEDNEW=$(mktemp)
+
+trap "rm -f '$LIST_FROM' '$LIST_TO' '$LOG' '$FAILEDNEW' " EXIT
+
+unset LSST_HOME EUPS_PATH LSST_DEVEL
+
+# Equivalent of 'eups list', but guarantees that tags are sorted (case insensitive sort)
+# and that all words on a line are separated by exactly one whitespace
+#
+eups_list() {
+	eups list | sed -r 's/[ \t]+/ /g' | sort | while read l; do
+		arr=($l)
+		tags=($(printf '%s\n' "${arr[@]:2}" | sort -i))
+		echo ${arr[0]} ${arr[1]} ${tags[@]}
+	done
+}
+
+# Test if a string is in a bash array
+#
+in_array() {
+	local hay needle=$1
+	shift
+	for hay; do
+		[[ $hay == $needle ]] && return 0
+	done
+	return 1
+}
+
+# Get list of GCC-compiled packages
+(
+. $STACK_FROM/loadLSST.sh
+eups_list > $LIST_FROM
+)
+
+# Get list of packages in the destination stack. Add exceptions and failed
+# packages, so we don't attempt to build them
+. $STACK_TO/loadLSST.sh
+eups_list > $LIST_TO
+test -f "$EXCEPTIONS" && cat "$EXCEPTIONS" >> $LIST_TO
+test -f "$FAILED"     && cat "$FAILED" >> $LIST_TO
+sort -u $LIST_TO -o $LIST_TO
+
+# Loop through all differences
+comm -1 -3 $LIST_TO $LIST_FROM | \
+while read l; do
+	arr=($l);
+	prod=${arr[0]}
+	vers=${arr[1]};
+
+	#
+	# If only the tags need updating
+	#
+	if eups list -q "$prod" "$vers" >/dev/null 2>&1; then
+		echo "===== TAGGING: $l"
+		#echo -n "clang: "; eups list "$prod" "$vers"
+		#echo "g++: $l"
+
+		# Remove existing tags
+		tags=($(eups list "$prod" "$vers"))
+		for tag in ${tags[@]:1}; do
+			eups undeclare --nolocks -t "$tag" "$prod" "$vers"
+		done
+
+		# Set new tags
+		tags=($l)
+		for tag in ${tags[@]:2}; do
+			eups declare --nolocks -t "$tag" "$prod" "$vers"
+		done
+		continue
+	fi
+
+	PRODLOGDIR="$LOGDIR/$prod/$vers"
+	mkdir -p "$PRODLOGDIR"
+
+	if in_array $prod "${BLACKLIST[@]}"; then
+		echo "***** Marking $prod $vers as failed (explicit rule)." | tee "$PRODLOGDIR/autobuild.log.$ID"
+		echo "$l" >> $FAILEDNEW
+		continue
+	fi
+
+	echo "===== INSTALLING: $prod $vers"
+
+	if eups distrib install --nolocks $prod $vers > $LOG 2>&1; then
+		echo "===== OK."
+	else
+		(
+			cd "$PRODLOGDIR"
+			chmod go+r "$LOG"
+			mv "$LOG" "eups_distrib.log.$ID"
+			BUILDLOG=$(tac eups_distrib.log.$ID | sed -r -n 's|lssteupsbuild.sh: scons install failed; see (/.*/build.log) for details|\1|p' | head -n 1)
+			test ! -z "$BUILDLOG" && cp $BUILDLOG "$(basename $BUILDLOG).$ID"
+			echo "***** Error building $prod $vers [ see $PRODLOGDIR/*.$ID ]"
+		)
+		echo "$l" >> $FAILEDNEW
+		eups distrib clean --nolocks "$prod" "$vers"
+	fi
+done
+
+test -s "$FAILEDNEW" && cat $FAILEDNEW >> $FAILED && sort -u $FAILED -o $FAILED
